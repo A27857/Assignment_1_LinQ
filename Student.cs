@@ -8,7 +8,6 @@ namespace C__Fundamental__2
     public class Student : Person
     {
         public bool IsGraduated { set; get; }
-        Student temp = new Student();
         public void ImportClass()
         {
             List<Student> students = new List<Student>();
